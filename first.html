@@ -3,16 +3,78 @@ html
 <html>
 <head>
     <title>My First Web Page</title>
+
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Main heading */
+        h1 {
+            color: white;
+            margin-top: 50px;
+            font-size: 36px;
+        }
+
+        /* Content card */
+        .container {
+            background-color: white;
+            width: 60%;
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Paragraphs */
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+
+        /* Subheading */
+        h2 {
+            color: #764ba2;
+        }
+
+        /* Button */
+        button {
+            background-color: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        /* Button hover effect */
+        button:hover {
+            background-color: #764ba2;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
+
 <body>
 
     <h1>Welcome to My Website</h1>
-    <p>This is my first HTML program.</p>
 
-    <h2>About Me</h2>
-    <p>My name is Shiva.</p>
+    <div class="container">
+        <p>This is my first HTML program.</p>
 
-    <button>Click Me</button>
+        <h2>About Me</h2>
+        <p>My name is Shiva.</p>
+
+        <button>Click Me</button>
+    </div>
 
 </body>
 </html>
